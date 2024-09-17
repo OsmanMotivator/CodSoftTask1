@@ -1,5 +1,6 @@
-document.getElementById("sendButton").addEventListener("click", function() {
-    let userInput = document.getElementById("userInput").value.toLowerCase();
+function sendMessage() {
+    let userInput = document.getElementById("user-input").value.toLowerCase();
+    let chatBox = document.getElementById("chat-box");
     let botResponse = "";
 
     if (userInput.includes("hello") || userInput.includes("hi") || userInput.includes("salaam")) {
@@ -29,7 +30,10 @@ document.getElementById("sendButton").addEventListener("click", function() {
         botResponse = "Waan ka xumahay, su'aashaada ma fahmin. Fadlan weydii su'aal kale.";
     }
 
-    document.getElementById("chatOutput").innerHTML += "<p><strong>Adiga:</strong> " + userInput + "</p>";
-    document.getElementById("chatOutput").innerHTML += "<p><strong>Bot:</strong> " + botResponse + "</p>";
-    document.getElementById("userInput").value = ""; // Wax ka saar input-ka kadib marka aad dirto
-});
+    chatBox.innerHTML += "<p><strong>Adiga:</strong> " + userInput + "</p>";
+    chatBox.innerHTML += "<p><strong>Bot:</strong> " + botResponse + "</p>";
+    document.getElementById("user-input").value = ""; // Wax ka saar input-ka kadib marka aad dirto
+
+    // Scroll to the bottom of the chat box
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
