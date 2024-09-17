@@ -49,6 +49,7 @@ h1 {
     font-size: 1.2rem;
     max-width: 600px;
     margin: 0 auto;
+    text-align: start;
 }
 
 footer {
