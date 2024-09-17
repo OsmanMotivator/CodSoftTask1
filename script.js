@@ -5,8 +5,7 @@ function sendMessage() {
 
     if (userInput.includes("hello") || userInput.includes("hi") || userInput.includes("salaam")) || userInput.includes("Asc") {
         botResponse = "Waad salaamantahay! Sideen kuugu caawin karaa maanta?";
-    } else if (userInput.includes("sidee tahay") || userInput.includes("iska warran")) || userInput.includes("seetahay") || userInput.includes("sethy") 
-    || userInput.includes("seithy") || userInput.includes("setahay") || userInput.includes("sthy"){
+    } else if (userInput.includes("sidee tahay") || userInput.includes("iska warran")) || userInput.includes("seetahay") || userInput.includes("sethy") || userInput.includes("seithy") || userInput.includes("setahay") || userInput.includes("sthy") {
         botResponse = "Waan fiicanahay, adigana sidee tahay?";
     } else if (userInput.includes("magacaa")) {
         botResponse = "Magacaygu waa ChatBot! adiga Magacaa?";
