@@ -42,6 +42,7 @@ h1 {
 .about-me h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #0174C4;
 }
 
 .about-me p {
@@ -64,7 +65,14 @@ footer p {
 /* Chatbot Styles */
 .chat-section {
     text-align: center;
-    margin: 20px 50;
+    margin: 50px 0;
+}
+
+.chat-section h2 {
+    text-align: center;
+    color: #0174C4;
+    margin-bottom: 15px;
+
 }
 
 .chat-container {
