@@ -43,12 +43,14 @@ h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #0174C4;
+    text-align: center;
 }
 
 .about-me p {
     font-size: 1.2rem;
     max-width: 600px;
     margin: 0 auto;
+    text-align: center;
 }
 
 footer {
