@@ -7,10 +7,10 @@ function sendMessage() {
         botResponse = "Waad salaamantahay! Sideen kuu caawin karaa maanta?";
     } else if (userInput.includes("sidee tahay") || userInput.includes("setahay") || userInput.includes("seetahay") || userInput.includes("sethy") || userInput.includes("sthy") ) {
         botResponse = "Waan fiicanahay, adigana sidee tahay?";
-    } else if (userInput.includes ("wan fiicanahay") || userInput.includes("fcn")) {
+    } else if (userInput.includes ("wan fiicanahay") || userInput.includes("fcn") || userInput.includes("fcnhy") || userInput.includes("ficanahay")) {
         botResponse = "Soo dhawaaw! Sideen kuu caawin karaa maanta?";
     } else if (userInput.includes("magacaa") || userInput.includes("magaca")) {
-        botResponse = "Magacaygu waa ChatBot! Adigana Magacaa?";
+        botResponse = "Magacaygu waa Carfi ChatBot! Adigana Magacaa?";
     } else if (userInput.includes("?")) {
         botResponse = "Farxad weyn ayay ii tahay inaan ku barto! Sideen kuu caawin karaa maanta?";
     } else if (userInput.includes("saacadda imisa ayey tahay") || userInput.includes("meeqa saac waaye")) {
